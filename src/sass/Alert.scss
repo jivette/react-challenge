@@ -1,0 +1,23 @@
+.modal {
+  width: 350px;
+  box-shadow: 2px 2px 11px 4px #80808059;
+  height: 50px;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafffa;
+  font-weight: bold;
+  bottom: 25px;
+  left: 50%;
+  border-radius: 5px;
+  margin-left: -175px;
+
+  &.success {
+    background: #508650;
+  }
+  &.error {
+    background: #c15252;
+  }
+}

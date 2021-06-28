@@ -1,0 +1,26 @@
+.product {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  > span {
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 0 10px;
+    &:first-child {
+      text-align: start;
+    }
+    &:last-child {
+      text-align: end;
+    }
+  }
+  .delete {
+    background-color: #c15252;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+  }
+}
